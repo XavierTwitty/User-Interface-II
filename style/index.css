@@ -118,6 +118,48 @@ footer{
 }
 
 @media(max-width: 800px){
+	body{
+		/* border: 2px solid red; */
+
+	}
+	.main h1{
+		/* border: 2px solid red ; */
+		font-size: 2rem; 
+		text-align: center;
+		margin-left: 3%;
+
+	}
+	
+	.main{
+		/* border: 2px solid red; */
+		
+
+
+	}
+	.navigation{
+		/* border: 2px solid blue; */
+		margin-left: 2px;
+		width: 52%;
+		height: 3rem;
+		justify-content: center;
+		justify-content: space-evenly;
+		
+
+	}
+	.navigation a{
+		/* border: 2px solid red; */
+		font-size: 1rem;
+		width: 24%;
+		height: 60%;
+		text-decoration: none;
+	}
+	.navigation a:hover{
+		background-color: purple;
+		color: white;
+	}
+	.sectionOne{
+		margin-top: 30px;
+	}
 	
 
 
