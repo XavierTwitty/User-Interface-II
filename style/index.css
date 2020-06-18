@@ -30,38 +30,43 @@ time, mark, audio, video {
 	background-color: aqua;
 	display: flex;
 	justify-content: space-between;
-	
+	 
 }
-nav{
+.navigation{
 	width: 40%;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	/* text-decoration: none; */
 }
-nav a{
+.navigation a{
 	width: 20%;
-	text-align: center;
+	text-align: center; 
+	color: purple;
+	
 	/* padding: 1%; */
 	/* justify-content: space-evenly; */
 	
 }
+/* .navigation a :hover{
+	background-color: purple; */
+}
 
 h1{
-	color: red;
+	/* color: red; */
 	font-size: 2rem;	
 }
 h2{
 	font-size: 2rem ;
 }
+h3{
+	text-align: center;
+}
 .sectionOne h3{
 	font-size: 1.8rem;
 }
 
-/* .navigation{
-	display: flex;
-	width: 100%;
 
-} */
 
 .sectionOne{
 	height: 80vh;
@@ -74,10 +79,13 @@ h2{
 	background-color:purple;
 
 }
+button{
+	background-color: aqua;
+}
 
 .parent{
 	/* height: 60vh; */
-	border: 5px solid red;
+	/* border: 5px solid red; */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -95,7 +103,7 @@ h2{
 	border: 3px solid green;
 	height: 200px;
 	width: 100%;
-	margin: 0;
+	
 	
 }	
 p {
@@ -103,45 +111,98 @@ p {
 
 }
 
-/* .BoxOne{s
-	height: auto;
-	width:
-	
-}
-
-.BoxTwo{
-	height: auto;
-	width: 15%;
-
-}
-
-.BoxThree{
-	height: auto;
-	width: 15%;
-
-}
-
-.BoxFour{
-	height: auto;
-	width: 15%;
-
-}
-
-.BoxFive{
-	height: auto;
-	width: 15%;
-}
-
-.BoxSix{
-	height: auto;;
-	width: 15%;
-} */
-
 footer{
 	width: 100%;
 	padding: 4rem 0;
 
 }
-h3{
-	text-align: center;
+
+@media(max-width: 800px){
+	
+
+
+
+}
+@media(max-width: 500px){
+	.main{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.main h1{
+		/* border: 2px solid red; */
+		font-size: 3rem;
+		text-align: center;
+
+		
+		
+	}
+	.navigation{
+		/* border: 2px solid purple; */
+		width: 100%;
+		flex-direction: column;
+		/* text-decoration: none; */
+		height: 200px;
+
+
+		
+	}
+	.navigation a{
+		/* border: 2px solid red; */
+		width:  12rem;
+		height: 25rem;
+		font-size: 2rem;
+		text-decoration: none; 
+		
+		
+
+	}
+ .navigation a:hover{
+		background-color: purple;
+		color:white;
+
+	}
+	.sectionOne{
+		width: 80%;
+		height: 20rem;
+		margin-top: 20px;
+		margin-bottom: 20px; 
+	
+	}
+	.parent{
+		/* border: 2px solid red; */
+		width: 87%;
+		margin-left: 6.5%;
+		display: flex;
+		justify-content: space-evenly;
+
+	}
+	.parent div{
+		width: 40%;
+
+	}
+	footer{
+		background-color: aqua;
+		display: flex;
+		justify-content: center;
+	}
+	footer h3{
+		border: 2px solid red;
+		width: 7rem;
+		height: 3rem;
+		font-size: 1.4rem;
+		text-decoration: none;
+	}
+	
+	footer h3:hover{
+		background-color: purple;
+		color: white;
+	}
+		
+		
+	
+	
+		
+		
+	
 }
