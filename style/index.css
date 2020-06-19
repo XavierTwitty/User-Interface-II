@@ -71,7 +71,8 @@ h3{
 .sectionOne{
 	height: 80vh;
 	width: 80%;
-	margin: 0 auto;
+	margin-top: 5%;
+	margin-left: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -112,6 +113,7 @@ p {
 }
 
 footer{
+	background-color: aqua;
 	width: 100%;
 	padding: 4rem 0;
 
