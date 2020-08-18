@@ -57,13 +57,22 @@ h1{
 	font-size: 2rem;	
 }
 h2{
+	border: 2px solid red;
 	font-size: 2rem ;
+	position: absolute;
+	width: 10rem;
+	
 }
 h3{
+	border: 2px solid red;
+	color: white;
 	text-align: center;
+	position: absolute;
+	display: flex;
 }
 .sectionOne h3{
 	font-size: 1.8rem;
+	position: absolute;
 }
 
 
@@ -74,14 +83,27 @@ h3{
 	margin-top: 5%;
 	margin-left: 10%;
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	align-items: center;
 	flex-direction: column;
+	position: relative;
+	color: white;
 	background-color:purple;
+	/* background-image: url("IMG_0108.jpg"); */
 
 }
+
+
+img {
+	height: 80vh;
+	width: 100%;
+	
+	
+}
+
 button{
 	background-color: aqua;
+	position: absolute;
 }
 
 .parent{
@@ -106,7 +128,14 @@ button{
 	width: 100%;
 	
 	
-}	
+}
+
+.ballerImg img {
+	height: 200px;
+	width: 100%;
+} 
+
+
 p {
 	text-align: center;
 
@@ -124,6 +153,12 @@ footer{
 		/* border: 2px solid red; */
 
 	}
+
+	/* img {
+		width: 40rem;
+		height: 38rem; */
+	}
+
 	.main h1{
 		/* border: 2px solid red ; */
 		font-size: 2rem; 
