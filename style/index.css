@@ -60,18 +60,20 @@ h1{
 	font-size: 3rem;	
 }
 h2{
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	font-size: 2rem ;
+	text-align: center;
 	position: absolute;
-	width: 10rem;
+	width: 20rem;
 	
 	
 }
 h3{
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	color: white;
 	text-align: center;
 	position: absolute;
+	bottom: 75%;
 
 	
 }
@@ -84,7 +86,16 @@ h4{
 }
 
 .main h1 {
+	background-color: purple;
 	font-size: 2rem;
+	transition: width 2s;
+}
+
+.main h1:hover {
+	width: 300px;
+	color: white;
+
+	
 }
 
 .sectionOne h3{
@@ -170,12 +181,12 @@ footer{
 
 @media(max-width: 800px){
 	body{
-		 border: 2px solid red; 
+		 /* border: 2px solid red;  */
 
 	}
 
 	.sectionOne{
-		border: 2px solid red;
+		/* border: 2px solid red; */
 		height: 60vh;
 		width: 80%;
 		margin-top: 5%;
@@ -253,7 +264,7 @@ footer{
 	}
 
 	.sectionOne{
-		border: 2px solid red;
+		/* border: 2px solid red; */
 		height: 30vh;
 		width: 80%;
 		margin-top: 5%;
@@ -284,6 +295,9 @@ footer{
 		
 		
 	}
+
+
+
 	.navigation{
 		/* border: 2px solid purple; */
 		width: 100%;
